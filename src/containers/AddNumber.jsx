@@ -1,6 +1,5 @@
 import AddNumber from '../components/AddNumber';
 import { connect } from 'react-redux';
-import store from '../store';
 
 // 위 함수는 dispatch를 아래와 같이 실행시켜줌
 function mapReduxDispatchToReactProps(dispatch) {
